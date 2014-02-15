@@ -10,7 +10,8 @@
 
 (function() {
   
-    var bannerIdContainer = jQuery('html').find('.tartalom b font')[2], //csak ilyen randa selectorral tudtam megtalalni az eppen aktualisan kivalasztott bannert
+    //csak ilyen randa selectorral tudtam megtalalni az eppen aktualisan kivalasztott bannert
+    var bannerIdContainer = jQuery('html').find('.tartalom b font')[2], 
     bannerId = $(bannerIdContainer).text();
 
     if (bannerId) {    
